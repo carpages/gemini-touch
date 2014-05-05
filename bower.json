@@ -1,0 +1,10 @@
+{
+  "name": "gemini-touch",
+  "authors": [
+    {"name": "Matt Rose", "email": "matt@mattrose.ca"}
+  ],
+  "dependencies": {
+    "fastclick": "1.0.0",
+    "jquery-hammerjs": "1.0.6"
+  }
+}
