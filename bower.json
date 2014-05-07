@@ -5,6 +5,7 @@
   ],
   "dependencies": {
     "fastclick": "1.0.0",
-    "jquery-hammerjs": "1.0.6"
+    "jquery-hammerjs": "1.0.6",
+    "gemini-loader": "ssh://git@stash.carpages.ca/gem/gemini-loader.git#0.1.x"
   }
 }
