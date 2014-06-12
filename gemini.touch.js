@@ -12,16 +12,15 @@ A Gemini module to load on mobile devices.
  * @copyright Carpages.ca 2014
  * @author Matt Rose <matt@mattrose.ca>
  *
- * @requires gemini-loader
  * @requires jquery.hammer
  * @requires fastclick
  *
  */
-define(['gemini-loader', 'jquery.hammer', 'fastclick'], function(GEM){
+define(['gemini', 'jquery.hammer', 'fastclick'], function(G){
 
 	//Initiate fast click
 	FastClick.attach(document.body);
 
-  return GEM;
+  return G;
 
 });
