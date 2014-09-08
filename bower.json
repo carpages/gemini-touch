@@ -8,7 +8,7 @@
   ],
   "ignore": [],
   "dependencies": {
-    "gemini-loader": "ssh://git@stash.carpages.ca/gem/gemini-loader.git",
+    "gemini-loader": "ssh://git@stash.carpages.ca/gem/gemini-loader.git#~0",
     "fastclick": "1.0.0",
     "jquery-hammerjs": "1.0.6"
   }
