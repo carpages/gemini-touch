@@ -1,15 +1,26 @@
 {
   "name": "gemini-touch",
   "authors": [
-    {"name": "Matt Rose", "email": "matt@mattrose.ca"}
+    {
+      "name": "Matt Rose",
+      "email": "matt@mattrose.ca"
+    }
   ],
   "main": [
     "gemini.touch.js"
   ],
-  "ignore": [],
+  "ignore": [
+    "test"
+  ],
   "dependencies": {
     "gemini-loader": "~0",
     "fastclick": "1.0.6",
     "jquery-hammerjs": "2.0.0"
+  },
+  "devDependencies": {
+    "requirejs": "~2.1.11"
+  },
+  "resolutions": {
+    "jquery": "1.11.x"
   }
 }
