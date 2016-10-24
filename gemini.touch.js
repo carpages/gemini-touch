@@ -16,30 +16,28 @@ A Gemini module to load on mobile devices.
  * @requires fastclick
  *
  */
-(function(factory) {
-  if (typeof define === 'function' && define.amd) {
+( function( factory ) {
+  if ( typeof define === 'function' && define.amd ) {
     // AMD. Register as an anonymous module.
     define([
       'gemini',
       'fastclick',
       'jquery.hammer'
-    ], factory);
-  } else if (typeof exports === 'object') {
+    ], factory );
+  } else if ( typeof exports === 'object' ) {
     // Node/CommonJS
     module.exports = factory(
-      require('gemini'),
-      require('fastclick'),
-      require('jquery-hammer')
+      require( 'gemini' ),
+      require( 'fastclick' ),
+      require( 'jquery-hammer' )
     );
   } else {
     // Browser globals
-    factory(G);
+    factory( G );
   }
-}(function($, FastClick) {
-
-	//Initiate fast click
-	FastClick.attach(document.body);
+}( function( $, FastClick ) {
+  // Initiate fast click
+  FastClick.attach( document.body );
 
   return G;
-
 }));
