@@ -27,7 +27,7 @@ A Gemini module to load on mobile devices.
   } else if ( typeof exports === 'object' ) {
     // Node/CommonJS
     module.exports = factory(
-      require( 'gemini' ),
+      require( 'gemini-loader' ),
       require( 'fastclick' ),
       require( 'jquery-hammer' )
     );
