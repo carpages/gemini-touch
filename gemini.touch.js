@@ -29,7 +29,7 @@ A Gemini module to load on mobile devices.
     module.exports = factory(
       require( 'gemini-loader' ),
       require( 'fastclick' ),
-      require( 'jquery-hammer' )
+      require( 'jquery-hammerjs' )
     );
   } else {
     // Browser globals
