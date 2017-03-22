@@ -19,8 +19,5 @@
   },
   "devDependencies": {
     "requirejs": "~2.1.11"
-  },
-  "resolutions": {
-    "jquery": "1.11.x"
   }
 }
