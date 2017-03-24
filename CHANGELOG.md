@@ -1,5 +1,9 @@
 # CHANGELOG
 
+## v0.2.3
+
+  - Use Carpages eslint config
+
 ## v0.2.2
 
   - Fix CommonJS require statement to require the correct jquery-hammerjs module
