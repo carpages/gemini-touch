@@ -1,5 +1,10 @@
 # CHANGELOG
 
+## v0.3.0
+
+  - Bump hammerjs -> 2.0
+  - Bump gemini-loader
+
 ## v0.2.3
 
   - Use Carpages eslint config
