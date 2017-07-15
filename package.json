@@ -13,15 +13,15 @@
     "url": "https://github.com/carpages/gemini-touch"
   },
   "dependencies": {
+    "@carpages/jquery-hammerjs": "2.x",
     "fastclick": "1.0.6",
-    "gemini-loader": "0.3.x",
-    "@carpages/jquery-hammerjs": "2.x"
+    "gemini-loader": "^0.4.3"
   },
   "devDependencies": {
-    "eslint": "^3.18.0",
-    "eslint-config-carpages": "^0.2.0",
+    "eslint": "^4.2.0",
+    "eslint-config-carpages": "^1.0.2",
     "grunt": "^1.0.1",
-    "grunt-eslint": "^19.0.0",
+    "grunt-eslint": "^20.0.0",
     "load-grunt-tasks": "^3.5.2",
     "time-grunt": "^1.4.0"
   },
