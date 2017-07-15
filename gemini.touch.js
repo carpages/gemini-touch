@@ -19,25 +19,18 @@ A Gemini module to load on mobile devices.
 ( function( factory ) {
   if ( typeof define === 'function' && define.amd ) {
     // AMD. Register as an anonymous module.
-    define([
-      'gemini',
-      'fastclick',
-      'jquery.hammer'
-    ], factory );
+    define([ 'gemini', 'fastclick', 'jquery.hammer' ], factory );
   } else if ( typeof exports === 'object' ) {
     // Node/CommonJS
     module.exports = factory(
       require( 'gemini-loader' ),
       require( 'fastclick' ),
-      require( 'jquery-hammerjs' )
+      require( '@carpages/jquery-hammerjs' )
     );
   } else {
     // Browser globals
     factory( G );
   }
-}( function( $, FastClick ) {
-  // Initiate fast click
-  FastClick.attach( document.body );
-
+})( function( G ) {
   return G;
-}));
+});
