@@ -1,6 +1,6 @@
 {
   "name": "gemini-touch",
-  "version": "0.4.0",
+  "version": "0.5.0",
   "description": "Gemini Touch",
   "author": {
     "name": "Matt Rose",
@@ -13,9 +13,9 @@
     "url": "https://github.com/carpages/gemini-touch"
   },
   "dependencies": {
-    "gemini-loader": "0.5.x",
     "@carpages/jquery-hammerjs": "2.x",
-    "fastclick": "1.0.6"
+    "fastclick": "1.0.6",
+    "gemini-loader": "0.5.x"
   },
   "devDependencies": {
     "eslint": "5.16.x",
